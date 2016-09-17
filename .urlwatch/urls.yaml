@@ -1,0 +1,118 @@
+filter: pypi
+kind: url
+url: https://pypi.python.org/pypi/python-hglib
+---
+kind: url
+url: https://mmonit.com/monit/changes/
+---
+kind: url
+url: https://josm.openstreetmap.de/wiki/Changelog
+---
+kind: url
+url: http://www.indexdata.com/yaz/doc/NEWS
+---
+kind: url
+url: http://tellico-project.org/download
+---
+kind: url
+url: http://geo.rkkda.com/ChangeLog
+---
+filter: github
+kind: url
+url: https://github.com/syncthing/syncthing-inotify/releases
+---
+filter: github
+kind: url
+url: https://github.com/syncthing/syncthing/releases
+---
+filter: github
+kind: url
+url: https://github.com/syncthing/syncthing-gtk/releases
+---
+kind: url
+url: https://kmymoney.org/changelogs/
+---
+filter: github
+kind: url
+url: https://github.com/OfflineIMAP/offlineimap/releases
+---
+kind: url
+url: http://downloads.suricata-ids.org/
+---
+kind: url
+url: https://manaplus.org/changelog
+---
+filter: github
+kind: url
+url: https://github.com/libgit2/pygit2
+---
+kind: url
+url: http://eaglemode.sourceforge.net/download.html
+---
+filter: github
+kind: url
+url: https://github.com/mps-youtube/mps-youtube
+---
+filter: github
+kind: url
+url: https://github.com/mlj/castget/releases
+---
+filter: github
+kind: url
+url: https://github.com/nextcloud/server/releases
+---
+kind: url
+url: http://homepages.ihug.co.nz/~trmusson/stuff/ignuit-changelog.txt
+---
+kind: url
+url: http://vifm.info/downloads.shtml
+---
+kind: url
+url: http://www.ginac.de/News.html
+---
+kind: url
+url: http://xpisar.wz.cz/libisds/dist/
+---
+kind: url
+url: https://gitlab.labs.nic.cz/labs/qdatovka/raw/master/ChangeLog
+---
+filter: github
+kind: url
+url: https://github.com/vgough/encfs/releases
+---
+filter: github
+kind: url
+url: https://github.com/PressLabs/gitfs/releases
+---
+kind: url
+url: http://ftp.gnome.org/pub/GNOME/sources/glom/
+---
+kind: url
+url: http://www.routino.org/software/NEWS.txt
+---
+filter: github
+kind: url
+url: https://github.com/sleuthkit/sleuthkit/releases
+---
+kind: url
+url: https://bitbucket.org/maproom/qmapshack/downloads
+---
+filter: github
+kind: url
+url: https://github.com/rg3/youtube-dl/releases
+---
+filter: github
+kind: url
+url: https://github.com/architv/soccer-cli/releases
+---
+filter: github
+kind: url
+url: https://github.com/nzbget/nzbget/releases
+---
+filter: github
+kind: url
+url: https://github.com/leethomason/tinyxml2/releases
+---
+kind: url
+url: http://download.osgeo.org/proj/
+
