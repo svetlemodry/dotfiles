@@ -115,4 +115,7 @@ url: https://github.com/leethomason/tinyxml2/releases
 ---
 kind: url
 url: http://download.osgeo.org/proj/
-
+---
+filter: github
+kind: url
+url: https://github.com/wting/autojump/releases
