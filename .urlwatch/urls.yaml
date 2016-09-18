@@ -119,3 +119,6 @@ url: http://download.osgeo.org/proj/
 filter: github
 kind: url
 url: https://github.com/wting/autojump/releases
+---
+kind: url
+url: http://mirror.httrack.com/historical/
