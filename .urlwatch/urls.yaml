@@ -122,3 +122,7 @@ url: https://github.com/wting/autojump/releases
 ---
 kind: url
 url: http://mirror.httrack.com/historical/
+---
+filter: github
+kind: url
+url: https://github.com/steve8x8/geotoad/releases
