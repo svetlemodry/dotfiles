@@ -132,3 +132,6 @@ url: http://download.savannah.gnu.org/releases/lzip/lzlib/
 ---
 kind: url
 url: http://download.kde.org/stable/skrooge/
+---
+kind: url
+url: ftp://ftp.gnome.org/pub/GNOME/sources/gnome-commander/
