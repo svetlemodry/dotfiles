@@ -134,7 +134,7 @@ kind: url
 url: http://download.kde.org/stable/skrooge/
 ---
 kind: url
-url: ftp://ftp.gnome.org/pub/GNOME/sources/gnome-commander/
+url: http://ftp.gnome.org/pub/GNOME/sources/gnome-commander/
 ---
 kind: url
 url: https://svn.osgeo.org/postgis/tags/
