@@ -142,3 +142,6 @@ url: https://svn.osgeo.org/postgis/tags/
 filter: github
 kind: url
 url: https://github.com/trezor/trezord/releases
+---
+kind: url
+url: http://manpages-de.alioth.debian.org/downloads/
