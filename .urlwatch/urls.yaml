@@ -145,3 +145,11 @@ url: https://github.com/trezor/trezord/releases
 ---
 kind: url
 url: http://manpages-de.alioth.debian.org/downloads/
+---
+filter: github
+kind: url
+url: https://github.com/trezor/python-trezor/releases
+---
+filter: github
+kind: url
+url: https://github.com/libgit2/pygit2/releases
