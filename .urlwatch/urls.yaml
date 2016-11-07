@@ -153,3 +153,7 @@ url: https://github.com/trezor/python-trezor/releases
 filter: github
 kind: url
 url: https://github.com/libgit2/pygit2/releases
+---
+filter: github
+kind: url
+url: https://github.com/sqlcipher/sqlcipher/releases
