@@ -167,3 +167,7 @@ url: https://launchpad.net/variety/+packages
 ---
 kind: url
 url: https://movit.sesse.net/
+---
+filter: github
+kind: url
+url: https://github.com/tools/godep/releases
