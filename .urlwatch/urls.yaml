@@ -3,7 +3,7 @@ kind: url
 url: https://pypi.python.org/pypi/python-hglib
 ---
 kind: url
-url: https://mmonit.com/monit/changes/
+url: https://mmonit.com/monit/dist/
 ---
 kind: url
 url: https://josm.openstreetmap.de/wiki/Changelog
