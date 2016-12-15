@@ -181,3 +181,7 @@ url: http://download.kde.org/stable/kdesvn/
 ---
 kind: url
 url: http://homebank.free.fr/ChangeLog
+---
+filter: github
+kind: url
+url: https://github.com/Leaflet/Leaflet/releases
