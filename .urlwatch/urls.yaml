@@ -189,3 +189,6 @@ url: https://github.com/Leaflet/Leaflet/releases
 filter: github
 kind: url
 url: https://github.com/tgraf/bmon/releases
+---
+kind: url
+url: https://pawsa.fedorapeople.org/balsa/
