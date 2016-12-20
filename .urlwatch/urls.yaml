@@ -185,3 +185,7 @@ url: http://homebank.free.fr/ChangeLog
 filter: github
 kind: url
 url: https://github.com/Leaflet/Leaflet/releases
+---
+filter: github
+kind: url
+url: https://github.com/tgraf/bmon/releases
