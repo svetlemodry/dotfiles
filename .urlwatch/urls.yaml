@@ -192,3 +192,6 @@ url: https://github.com/tgraf/bmon/releases
 ---
 kind: url
 url: https://pawsa.fedorapeople.org/balsa/
+---
+kind: url
+url: http://download.osgeo.org/shapelib/
