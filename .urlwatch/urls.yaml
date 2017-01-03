@@ -205,3 +205,6 @@ url: https://wammu.eu/news/wammu/
 ---
 kind: url
 url: https://wammu.eu/news/gammu/
+---
+kind: url
+url: https://wammu.eu/download/python-gammu/
