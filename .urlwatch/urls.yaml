@@ -199,3 +199,6 @@ url: http://download.osgeo.org/shapelib/
 filter: github
 kind: url
 url: https://github.com/msiemens/PyGitUp/releases
+---
+kind: url
+url: https://wammu.eu/news/wammu/
