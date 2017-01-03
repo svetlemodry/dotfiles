@@ -195,3 +195,7 @@ url: https://pawsa.fedorapeople.org/balsa/
 ---
 kind: url
 url: http://download.osgeo.org/shapelib/
+---
+filter: github
+kind: url
+url: https://github.com/msiemens/PyGitUp/releases
