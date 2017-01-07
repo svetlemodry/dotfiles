@@ -208,3 +208,7 @@ url: https://wammu.eu/news/gammu/
 ---
 kind: url
 url: https://wammu.eu/download/python-gammu/
+---
+filter: github
+kind: url
+url: https://github.com/moneymanagerex/moneymanagerex/releases
