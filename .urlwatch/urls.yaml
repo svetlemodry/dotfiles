@@ -216,3 +216,7 @@ url: https://github.com/indexdata/yaz/releases
 ---
 kind: url
 url: http://xpisar.wz.cz/ctstream/
+---
+filter: github
+kind: url
+url: https://github.com/utelle/wxsqlite3/releases
