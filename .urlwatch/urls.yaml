@@ -220,3 +220,7 @@ url: http://xpisar.wz.cz/ctstream/
 filter: github
 kind: url
 url: https://github.com/utelle/wxsqlite3/releases
+---
+filter: github
+kind: url
+url: https://github.com/viking-gps/viking/releases
