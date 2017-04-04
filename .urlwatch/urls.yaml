@@ -231,3 +231,7 @@ url: https://github.com/dharple/detox/releases
 ---
 kind: url
 url: http://www.initzero.it/portal/soluzioni/software-open-source/synbak-universal-backup-software-for-linux_2623.html
+---
+filter: github
+kind: url
+url: https://github.com/fenrus75/powertop/releases
