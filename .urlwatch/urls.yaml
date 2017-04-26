@@ -235,3 +235,7 @@ url: http://www.initzero.it/portal/soluzioni/software-open-source/synbak-univers
 filter: github
 kind: url
 url: https://github.com/fenrus75/powertop/releases
+---
+filter: github
+kind: url
+url: https://github.com/lpereira/hardinfo/releases
