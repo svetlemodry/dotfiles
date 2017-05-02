@@ -242,3 +242,7 @@ url: https://github.com/lpereira/hardinfo/releases
 ---
 kind: url
 url: http://git.epicsol.org/epic4.git/refs/tags/
+---
+filter: github
+kind: url
+url: https://github.com/Dushistov/sdcv/releases
