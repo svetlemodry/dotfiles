@@ -250,3 +250,6 @@ url: https://github.com/Dushistov/sdcv/releases
 filter: github
 kind: url
 url: https://github.com/gohugoio/hugo/releases
+---
+kind: url
+url: https://git.sesse.net/?p=movit
