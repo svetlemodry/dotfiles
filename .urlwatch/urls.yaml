@@ -269,3 +269,7 @@ url: https://github.com/translate/translate/releases
 filter: github
 kind: url
 url: https://github.com/martinpitt/umockdev/releases
+---
+filter: github
+kind: url
+url: https://github.com/PromyLOPh/pianobar/releases
