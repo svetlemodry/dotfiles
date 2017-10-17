@@ -273,3 +273,6 @@ url: https://github.com/martinpitt/umockdev/releases
 filter: github
 kind: url
 url: https://github.com/PromyLOPh/pianobar/releases
+---
+kind: url
+url: http://www.gaia-gis.it/gaia-sins/freexl-sources/
