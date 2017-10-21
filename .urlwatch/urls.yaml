@@ -280,3 +280,7 @@ url: http://www.gaia-gis.it/gaia-sins/freexl-sources/
 filter: github
 kind: url
 url: https://github.com/mapnik/mapnik/releases
+---
+filter: github
+kind: url
+url: https://github.com/newsboat/newsboat/releases
