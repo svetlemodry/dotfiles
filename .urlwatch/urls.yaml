@@ -71,7 +71,7 @@ kind: url
 url: http://xpisar.wz.cz/libisds/dist/
 ---
 kind: url
-url: https://gitlab.labs.nic.cz/labs/qdatovka/raw/master/ChangeLog
+url: https://gitlab.labs.nic.cz/datovka/datovka/raw/master/ChangeLog 
 ---
 filter: github
 kind: url
