@@ -7,9 +7,11 @@ url: https://mmonit.com/monit/dist/
 ---
 kind: url
 url: https://josm.openstreetmap.de/wiki/Changelog
+filter: html2text,grep:Stable release
 ---
 kind: url
 url: http://tellico-project.org/download
+filter: html2text,grep:latest released version
 ---
 kind: url
 url: http://geo.rkkda.com/ChangeLog
@@ -38,6 +40,7 @@ url: http://downloads.suricata-ids.org/
 ---
 kind: url
 url: https://manaplus.org/changelog
+filter: html2text,grep:New release
 ---
 filter: github
 kind: url
@@ -93,6 +96,7 @@ url: https://github.com/sleuthkit/sleuthkit/releases
 ---
 kind: url
 url: https://bitbucket.org/maproom/qmapshack/downloads
+filter: html2text,grep:.tar.gz
 ---
 filter: github
 kind: url
@@ -157,10 +161,12 @@ kind: url
 url: https://github.com/duncs/clusterssh/releases
 ---
 kind: url
-url: https://launchpad.net/variety/+packages
+url: https://launchpad.net/variety/trunk
+filter: html2text,grep:Latest version is
 ---
 kind: url
 url: https://movit.sesse.net/
+filter: html2text,grep:refs/tags/
 ---
 filter: github
 kind: url
