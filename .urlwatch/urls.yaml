@@ -284,3 +284,7 @@ url: https://github.com/mapnik/mapnik/releases
 filter: github
 kind: url
 url: https://github.com/newsboat/newsboat/releases
+---
+kind: url
+url: https://download.freenas.org/plugins/9/x64/
+filter: html2text
