@@ -5,13 +5,13 @@ url: https://pypi.python.org/pypi/python-hglib
 kind: url
 url: https://mmonit.com/monit/dist/
 ---
+filter: html2text,grep:Stable release
 kind: url
 url: https://josm.openstreetmap.de/wiki/Changelog
-filter: html2text,grep:Stable release
 ---
+filter: html2text,grep:latest released version
 kind: url
 url: http://tellico-project.org/download
-filter: html2text,grep:latest released version
 ---
 kind: url
 url: http://geo.rkkda.com/ChangeLog
@@ -38,9 +38,9 @@ url: https://github.com/OfflineIMAP/offlineimap/releases
 kind: url
 url: http://downloads.suricata-ids.org/
 ---
+filter: html2text,grep:New release
 kind: url
 url: https://manaplus.org/changelog
-filter: html2text,grep:New release
 ---
 filter: github
 kind: url
@@ -74,7 +74,7 @@ kind: url
 url: http://xpisar.wz.cz/libisds/dist/
 ---
 kind: url
-url: https://gitlab.labs.nic.cz/datovka/datovka/raw/master/ChangeLog 
+url: https://gitlab.labs.nic.cz/datovka/datovka/raw/master/ChangeLog
 ---
 filter: github
 kind: url
@@ -94,9 +94,9 @@ filter: github
 kind: url
 url: https://github.com/sleuthkit/sleuthkit/releases
 ---
+filter: html2text,grep:.tar.gz
 kind: url
 url: https://bitbucket.org/maproom/qmapshack/downloads
-filter: html2text,grep:.tar.gz
 ---
 filter: github
 kind: url
@@ -160,9 +160,9 @@ filter: github
 kind: url
 url: https://github.com/duncs/clusterssh/releases
 ---
+filter: html2text,grep:Latest version is
 kind: url
 url: https://launchpad.net/variety/trunk
-filter: html2text,grep:Latest version is
 ---
 filter: github
 kind: url
@@ -250,9 +250,9 @@ filter: github
 kind: url
 url: https://github.com/gohugoio/hugo/releases
 ---
+filter: html2text,grep:refs/tags/
 kind: url
 url: https://git.sesse.net/?p=movit
-filter: html2text,grep:refs/tags/
 ---
 filter: github
 kind: url
@@ -285,6 +285,9 @@ filter: github
 kind: url
 url: https://github.com/newsboat/newsboat/releases
 ---
+filter: html2text
 kind: url
 url: https://download.freenas.org/plugins/9/x64/
-filter: html2text
+---
+kind: url
+url: https://kid3.sourceforge.io/
