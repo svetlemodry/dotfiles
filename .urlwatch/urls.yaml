@@ -291,3 +291,6 @@ url: https://download.freenas.org/plugins/9/x64/
 ---
 kind: url
 url: https://kid3.sourceforge.io/
+---
+kind: url
+url: http://xpisar.wz.cz/ctstream/
