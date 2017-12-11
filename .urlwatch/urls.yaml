@@ -310,3 +310,7 @@ url: https://github.com/arno-iptables-firewall/aif/releases
 filter: github
 kind: url
 url: https://github.com/libofx/libofx/releases
+---
+filter: github
+kind: url
+url: https://github.com/vslavik/poedit/releases
