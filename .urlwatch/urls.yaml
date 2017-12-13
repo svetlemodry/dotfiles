@@ -325,3 +325,7 @@ url: https://github.com/gicmo/bolt/releases
 ---
 kind: url
 url: http://log69.com/aaphoto_en.html
+---
+filter: github
+kind: url
+url: https://github.com/9wm/9wm/releases
