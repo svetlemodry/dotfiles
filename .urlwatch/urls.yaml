@@ -131,6 +131,7 @@ url: https://github.com/steve8x8/geotoad/releases
 kind: url
 url: http://download.savannah.gnu.org/releases/lzip/lzlib/
 ---
+filter: html2text
 kind: url
 url: http://download.kde.org/stable/skrooge/
 ---
