@@ -114,6 +114,7 @@ filter: github
 kind: url
 url: https://github.com/leethomason/tinyxml2/releases
 ---
+filter: html2text
 kind: url
 url: http://download.osgeo.org/proj/
 ---
