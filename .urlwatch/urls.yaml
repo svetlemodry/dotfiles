@@ -335,3 +335,7 @@ url: https://github.com/9wm/9wm/releases
 filter: github
 kind: url
 url: https://github.com/shlomif/PySolFC/releases
+---
+filter: github
+kind: url
+url: https://github.com/matplotlib/basemap/releases
