@@ -356,6 +356,6 @@ filter: github
 kind: url
 url: https://github.com/lanoxx/tilda/releases
 ---
-filter: github
+filter: html2text
 kind: url
-url: https://github.com/i-scream/pystatgrab/releases
+url: https://ftp.i-scream.org/pub/i-scream/pystatgrab/
