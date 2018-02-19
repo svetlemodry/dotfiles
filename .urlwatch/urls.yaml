@@ -46,6 +46,7 @@ filter: github
 kind: url
 url: https://github.com/libgit2/pygit2
 ---
+filter: html2text
 kind: url
 url: http://eaglemode.sourceforge.net/download.html
 ---
