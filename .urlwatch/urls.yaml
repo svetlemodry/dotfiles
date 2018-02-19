@@ -292,6 +292,7 @@ filter: html2text
 kind: url
 url: https://download.freenas.org/plugins/9/x64/
 ---
+filter: html2text
 kind: url
 url: https://kid3.sourceforge.io/
 ---
