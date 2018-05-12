@@ -206,6 +206,7 @@ url: https://wammu.eu/news/wammu/
 kind: url
 url: https://wammu.eu/news/gammu/
 ---
+filter: html2text
 kind: url
 url: https://wammu.eu/download/python-gammu/
 ---
