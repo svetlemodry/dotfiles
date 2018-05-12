@@ -374,3 +374,7 @@ url: https://github.com/KDE/kuickshow/releases
 filter: github
 kind: url
 url: https://github.com/colorgcc/colorgcc
+---
+filter: html2text
+kind: url
+url: https://dl.bintray.com/okapi/Distribution/
