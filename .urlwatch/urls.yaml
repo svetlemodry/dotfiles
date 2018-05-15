@@ -1,4 +1,4 @@
-filter: pypi
+filter: pypi,html2text
 kind: url
 url: https://pypi.python.org/pypi/python-hglib
 ---
