@@ -244,6 +244,7 @@ filter: github
 kind: url
 url: https://github.com/lpereira/hardinfo/releases
 ---
+filter: html2text
 kind: url
 url: http://git.epicsol.org/epic4.git/refs/tags/
 ---
