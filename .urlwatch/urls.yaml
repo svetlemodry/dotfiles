@@ -384,3 +384,7 @@ url: https://github.com/stachenov/quazip/releases
 filter: github
 kind: url
 url: https://github.com/mquinson/po4a/releases
+---
+filter: github
+kind: url
+url: https://github.com/vicgeralds/vitetris/releases
