@@ -392,3 +392,6 @@ url: https://github.com/vicgeralds/vitetris/releases
 filter: github
 kind: url
 url: https://github.com/lpereira/hardinfo/
+---
+kind: url
+url: https://salsa.debian.org/manpages-de-team/manpages-de/raw/master/CHANGES.md
