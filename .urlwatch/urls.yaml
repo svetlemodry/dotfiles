@@ -399,3 +399,6 @@ url: https://salsa.debian.org/manpages-de-team/manpages-de/raw/master/CHANGES.md
 filter: github
 kind: url
 url: https://github.com/OpenAoE/aoetools/releases
+---
+kind: url
+url: http://catb.org/gpsd/NEWS
