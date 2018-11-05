@@ -16,24 +16,32 @@ url: http://tellico-project.org/download
 kind: url
 url: http://geo.rkkda.com/ChangeLog
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/syncthing/syncthing-inotify/releases
+url: https://github.com/syncthing/syncthing-inotify/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/syncthing/syncthing/releases
+url: https://github.com/syncthing/syncthing/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/syncthing/syncthing-gtk/releases
+url: https://github.com/syncthing/syncthing-gtk/releases/latest
 ---
 kind: url
 url: https://kmymoney.org/changelogs/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/OfflineIMAP/offlineimap/releases
+url: https://github.com/OfflineIMAP/offlineimap/releases/latest
 ---
 kind: url
 url: http://downloads.suricata-ids.org/
@@ -42,25 +50,33 @@ filter: html2text,grep:New release
 kind: url
 url: https://manaplus.org/changelog
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/libgit2/pygit2
+url: https://github.com/libgit2/pygit2/releases/latest
 ---
 filter: html2text
 kind: url
 url: http://eaglemode.sourceforge.net/download.html
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/mps-youtube/mps-youtube
+url: https://github.com/mps-youtube/mps-youtube/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/mlj/castget/releases
+url: https://github.com/mlj/castget/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/nextcloud/server/releases
+url: https://github.com/nextcloud/server/releases/latest
 ---
 kind: url
 url: http://homepages.ihug.co.nz/~trmusson/stuff/ignuit-changelog.txt
@@ -77,13 +93,17 @@ url: http://xpisar.wz.cz/libisds/dist/
 kind: url
 url: https://gitlab.labs.nic.cz/datovka/datovka/raw/master/ChangeLog
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/vgough/encfs/releases
+url: https://github.com/vgough/encfs/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/PressLabs/gitfs/releases
+url: https://github.com/PressLabs/gitfs/releases/latest
 ---
 kind: url
 url: http://ftp.gnome.org/pub/GNOME/sources/glom/
@@ -91,48 +111,62 @@ url: http://ftp.gnome.org/pub/GNOME/sources/glom/
 kind: url
 url: http://www.routino.org/software/NEWS.txt
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/sleuthkit/sleuthkit/releases
+url: https://github.com/sleuthkit/sleuthkit/releases/latest
 ---
 filter: html2text,grep:.tar.gz
 kind: url
 url: https://bitbucket.org/maproom/qmapshack/downloads
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/rg3/youtube-dl/releases
+url: https://github.com/rg3/youtube-dl/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/architv/soccer-cli/releases
+url: https://github.com/architv/soccer-cli/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/nzbget/nzbget/releases
+url: https://github.com/nzbget/nzbget/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/leethomason/tinyxml2/releases
+url: https://github.com/leethomason/tinyxml2/releases/latest
 ---
 filter: html2text
 kind: url
 url: http://download.osgeo.org/proj/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/wting/autojump/releases
+url: https://github.com/wting/autojump/releases/latest
 ---
 kind: url
 url: http://mirror.httrack.com/historical/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/steve8x8/geotoad/releases
+url: https://github.com/steve8x8/geotoad/releases/latest
 ---
 filter: html2text
 kind: url
-url: http://download.savannah.gnu.org/releases/lzip/lzlib/
+url: http://download.savannah.gnu.org/releases/lzip/lzlib
 ---
 filter: html2text
 kind: url
@@ -141,37 +175,51 @@ url: http://download.kde.org/stable/skrooge/
 kind: url
 url: https://svn.osgeo.org/postgis/tags/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/trezor/trezord/releases
+url: https://github.com/trezor/trezord/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/trezor/python-trezor/releases
+url: https://github.com/trezor/python-trezor/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/libgit2/pygit2/releases
+url: https://github.com/libgit2/pygit2/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/sqlcipher/sqlcipher/releases
+url: https://github.com/sqlcipher/sqlcipher/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/duncs/clusterssh/releases
+url: https://github.com/duncs/clusterssh/releases/latest
 ---
 filter: html2text,grep:Latest version is
 kind: url
 url: https://launchpad.net/variety/trunk
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/tools/godep/releases
+url: https://github.com/tools/godep/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/RedHatBrand/Overpass/releases
+url: https://github.com/RedHatBrand/Overpass/releases/latest
 ---
 kind: url
 url: http://download.kde.org/stable/kdesvn/
@@ -179,13 +227,17 @@ url: http://download.kde.org/stable/kdesvn/
 kind: url
 url: http://homebank.free.fr/ChangeLog
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/Leaflet/Leaflet/releases
+url: https://github.com/Leaflet/Leaflet/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/tgraf/bmon/releases
+url: https://github.com/tgraf/bmon/releases/latest
 ---
 kind: url
 url: https://pawsa.fedorapeople.org/balsa/
@@ -193,9 +245,11 @@ url: https://pawsa.fedorapeople.org/balsa/
 kind: url
 url: http://download.osgeo.org/shapelib/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/msiemens/PyGitUp/releases
+url: https://github.com/msiemens/PyGitUp/releases/latest
 ---
 kind: url
 url: https://wammu.eu/news/wammu/
@@ -207,87 +261,121 @@ filter: html2text
 kind: url
 url: https://wammu.eu/download/python-gammu/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/moneymanagerex/moneymanagerex/releases
+url: https://github.com/moneymanagerex/moneymanagerex/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/indexdata/yaz/releases
+url: https://github.com/indexdata/yaz/releases/latest
 ---
 kind: url
 url: http://xpisar.wz.cz/ctstream/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/utelle/wxsqlite3/releases
+url: https://github.com/utelle/wxsqlite3/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/viking-gps/viking/releases
+url: https://github.com/viking-gps/viking/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/dharple/detox/releases
+url: https://github.com/dharple/detox/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/ugoviti/synbak/releases
+url: https://github.com/ugoviti/synbak/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/fenrus75/powertop/releases
+url: https://github.com/fenrus75/powertop/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/lpereira/hardinfo/releases
+url: https://github.com/lpereira/hardinfo/releases/latest
 ---
 filter: html2text
 kind: url
 url: http://git.epicsol.org/epic4.git/refs/tags/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/Dushistov/sdcv/releases
+url: https://github.com/Dushistov/sdcv/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/gohugoio/hugo/releases
+url: https://github.com/gohugoio/hugo/releases/latest
 ---
 filter: html2text,grep:refs/tags/
 kind: url
 url: https://git.sesse.net/?p=movit
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/ccrisan/motioneye/releases
+url: https://github.com/ccrisan/motioneye/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/ccrisan/motioneyeos/releases
+url: https://github.com/ccrisan/motioneyeos/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/translate/translate/releases
+url: https://github.com/translate/translate/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/martinpitt/umockdev/releases
+url: https://github.com/martinpitt/umockdev/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/PromyLOPh/pianobar/releases
+url: https://github.com/PromyLOPh/pianobar/releases/latest
 ---
 kind: url
 url: http://www.gaia-gis.it/gaia-sins/freexl-sources/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/mapnik/mapnik/releases
+url: https://github.com/mapnik/mapnik/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/newsboat/newsboat/releases
+url: https://github.com/newsboat/newsboat/releases/latest
 ---
 filter: html2text
 kind: url
@@ -300,48 +388,68 @@ url: https://kid3.sourceforge.io/
 kind: url
 url: http://xpisar.wz.cz/ctstream/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/OISF/libhtp/releases
+url: https://github.com/OISF/libhtp/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/getreu/grpn/releases
+url: https://github.com/getreu/grpn/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/arno-iptables-firewall/aif/releases
+url: https://github.com/arno-iptables-firewall/aif/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/libofx/libofx/releases
+url: https://github.com/libofx/libofx/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/vslavik/poedit/releases
+url: https://github.com/vslavik/poedit/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/Motion-Project/motion/releases
+url: https://github.com/Motion-Project/motion/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/gicmo/bolt/releases
+url: https://github.com/gicmo/bolt/releases/latest
 ---
 kind: url
 url: http://log69.com/aaphoto_en.html
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/9wm/9wm/releases
+url: https://github.com/9wm/9wm/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/shlomif/PySolFC/releases
+url: https://github.com/shlomif/PySolFC/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/matplotlib/basemap/releases
+url: https://github.com/matplotlib/basemap/releases/latest
 ---
 kind: url
 url: https://gitlab.com/surfraw/Surfraw/raw/master/ChangeLog
@@ -350,56 +458,72 @@ filter: html2text
 kind: url
 url: https://www.aquamaniac.de/sites/download/packages.php?package=03&showall=1
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/houseabsolute/Exception-Class/releases
+url: https://github.com/houseabsolute/Exception-Class/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/lanoxx/tilda/releases
+url: https://github.com/lanoxx/tilda/releases/latest
 ---
 filter: html2text
 kind: url
 url: https://ftp.i-scream.org/pub/i-scream/pystatgrab/
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/uperf/uperf/releases
+url: https://github.com/uperf/uperf/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/KDE/kuickshow/releases
+url: https://github.com/KDE/kuickshow/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/colorgcc/colorgcc
+url: https://github.com/colorgcc/colorgcc/releases/latest
 ---
-filter: html2text
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://dl.bintray.com/okapi/Distribution/
+url: https://github.com/stachenov/quazip/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/stachenov/quazip/releases
+url: https://github.com/mquinson/po4a/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/mquinson/po4a/releases
+url: https://github.com/vicgeralds/vitetris/releases/latest
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/vicgeralds/vitetris/releases
----
-filter: github
-kind: url
-url: https://github.com/lpereira/hardinfo/
+url: https://github.com/lpereira/hardinfo/releases/latest
 ---
 kind: url
 url: https://salsa.debian.org/manpages-de-team/manpages-de/raw/master/CHANGES.md
 ---
-filter: github
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://github.com/OpenAoE/aoetools/releases
+url: https://github.com/OpenAoE/aoetools/releases/latest
 ---
 kind: url
 url: http://catb.org/gpsd/NEWS
