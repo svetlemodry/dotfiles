@@ -79,9 +79,6 @@ kind: url
 url: https://github.com/nextcloud/server/releases/latest
 ---
 kind: url
-url: http://homepages.ihug.co.nz/~trmusson/stuff/ignuit-changelog.txt
----
-kind: url
 url: http://vifm.info/downloads.shtml
 ---
 kind: url
