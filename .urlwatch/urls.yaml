@@ -114,9 +114,11 @@ filter:
 kind: url
 url: https://github.com/sleuthkit/sleuthkit/releases/latest
 ---
-filter: html2text,grep:.tar.gz
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
 kind: url
-url: https://bitbucket.org/maproom/qmapshack/downloads
+url: https://github.com/Maproom/qmapshack/releases/latest 
 ---
 filter:
 - xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
