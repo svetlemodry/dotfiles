@@ -527,3 +527,6 @@ url: https://github.com/OpenAoE/aoetools/releases/latest
 ---
 kind: url
 url: https://gpsd.gitlab.io/gpsd/NEWS
+---
+kind: url
+url: https://www.softcatala.org/pub/softcatala/aspell/
