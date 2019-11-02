@@ -169,8 +169,9 @@ filter: html2text
 kind: url
 url: http://download.kde.org/stable/skrooge/
 ---
+filter: html2text
 kind: url
-url: https://svn.osgeo.org/postgis/tags/
+url: https://git.osgeo.org/gitea/postgis/postgis/releases
 ---
 filter:
 - xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
