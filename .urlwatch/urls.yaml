@@ -530,3 +530,9 @@ url: https://gpsd.gitlab.io/gpsd/NEWS
 ---
 kind: url
 url: https://www.softcatala.org/pub/softcatala/aspell/
+---
+filter:
+- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- html2text: re
+kind: url
+url: https://github.com/RedHatBrand/Overpass/releases/latest
