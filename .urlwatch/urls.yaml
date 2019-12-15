@@ -536,3 +536,11 @@ filter:
 - html2text: re
 kind: url
 url: https://github.com/RedHatBrand/Overpass/releases/latest
+---
+filter: html2text
+kind: url
+url: https://fosdem.org/2020/keysigning/
+---
+filter: html2text
+kind: url
+url: https://fosdem.org/2020/news/
