@@ -544,3 +544,7 @@ url: https://fosdem.org/2020/keysigning/
 filter: html2text
 kind: url
 url: https://fosdem.org/2020/news/
+---
+filter: html2text
+kind: url
+url: https://www.alglib.net/arcnews.php 
