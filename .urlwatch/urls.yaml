@@ -34,8 +34,9 @@ filter:
 kind: url
 url: https://github.com/syncthing/syncthing-gtk/releases/latest
 ---
+filter: html2text
 kind: url
-url: https://kmymoney.org/changelogs/
+url: https://kmymoney.org/news/
 ---
 filter:
 - xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
