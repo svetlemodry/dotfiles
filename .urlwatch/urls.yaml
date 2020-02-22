@@ -327,7 +327,7 @@ filter:
 - xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
 - html2text: re
 kind: url
-url: https://github.com/gohugoio/hugo/releases/latest
+url: https://github.com/gohugoio/hugo/releases
 ---
 filter: html2text,grep:refs/tags/
 kind: url
