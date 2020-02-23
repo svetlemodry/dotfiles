@@ -17,13 +17,13 @@ kind: url
 url: http://geo.rkkda.com/ChangeLog
 ---
 filter:
-- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- xpath: (//div[contains(@class,'release-header')]//a)[1]
 - html2text: re
 kind: url
 url: https://github.com/syncthing/syncthing-inotify/releases/latest
 ---
 filter:
-- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- xpath: (//div[contains(@class,'release-header')]//a)[1]
 - html2text: re
 kind: url
 url: https://github.com/syncthing/syncthing/releases/latest
@@ -62,7 +62,7 @@ kind: url
 url: http://eaglemode.sourceforge.net/download.html
 ---
 filter:
-- xpath: (//div[contains(@class,"release-timeline-tags")]//h4)[1]/a
+- xpath: (//div[contains(@class,'release-header')]//a)[1]
 - html2text: re
 kind: url
 url: https://github.com/mps-youtube/mps-youtube/releases/latest
