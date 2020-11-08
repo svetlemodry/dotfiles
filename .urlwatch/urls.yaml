@@ -125,12 +125,6 @@ filter:
 - xpath: (//div[contains(@class,'release-header')]//a)[1]
 - html2text: re
 kind: url
-url: https://github.com/ytdl-org/youtube-dl/releases/latest
----
-filter:
-- xpath: (//div[contains(@class,'release-header')]//a)[1]
-- html2text: re
-kind: url
 url: https://github.com/nzbget/nzbget/releases/latest
 ---
 filter:
@@ -525,3 +519,7 @@ filter:
 - html2text: re
 kind: url
 url: https://github.com/SciTools/cartopy/releases/latest
+---
+filter: html2text
+kind: url
+url: http://youtube-dl.org
