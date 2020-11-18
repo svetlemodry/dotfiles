@@ -606,3 +606,11 @@ filter:
   - html2text
 kind: url
 url: http://youtube-dl.org
+---
+filter:
+  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/ytdl-org/youtube-dl/releases/latest
+
