@@ -613,4 +613,11 @@ filter:
   - strip
 kind: url
 url: https://github.com/ytdl-org/youtube-dl/releases/latest
+---
+filter:
+  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/jim-easterbrook/python-gphoto2/releases/latest
 
