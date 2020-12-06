@@ -219,12 +219,6 @@ kind: url
 url: https://github.com/duncs/clusterssh/releases/latest
 ---
 filter:
-  - html2text
-  - grep: "Latest version is"
-kind: url
-url: https://launchpad.net/variety/trunk
----
-filter:
   - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
   - html2text: re
   - strip
@@ -626,3 +620,11 @@ filter:
   - strip
 kind: url
 url: https://tellico-project.org/archive/
+---
+filter:
+  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/varietywalls/variety/releases/latest
+
