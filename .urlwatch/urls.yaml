@@ -629,7 +629,7 @@ kind: url
 url: https://github.com/varietywalls/variety/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
   - html2text: re
   - strip
 kind: url
