@@ -634,4 +634,11 @@ filter:
   - strip
 kind: url
 url: https://github.com/nelhage/reptyr/releases/latest
+---
+filter:
+  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/aristocratos/bpytop/releases/latest
 
