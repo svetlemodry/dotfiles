@@ -202,13 +202,6 @@ filter:
   - html2text: re
   - strip
 kind: url
-url: https://github.com/libgit2/pygit2/releases/latest
----
-filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
-  - html2text: re
-  - strip
-kind: url
 url: https://github.com/sqlcipher/sqlcipher/releases/latest
 ---
 filter:
@@ -576,13 +569,6 @@ url: https://gpsd.gitlab.io/gpsd/NEWS
 ---
 kind: url
 url: https://www.softcatala.org/pub/softcatala/aspell/
----
-filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
-  - html2text: re
-  - strip
-kind: url
-url: https://github.com/RedHatBrand/Overpass/releases/latest
 ---
 filter:
   - html2text
