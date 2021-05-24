@@ -634,4 +634,10 @@ filter:
   - strip
 kind: url
 url: https://github.com/sethmlarson/selectors2/releases/latest
-
+---
+filter:
+  - xpath: '(//li[contains(@class,"has-video has-one-video")]//a)'
+  - html2text: re
+  - strip
+kind: url
+url: https://www.ceskatelevize.cz/porady/tema/filmy/
