@@ -554,6 +554,13 @@ filter:
 kind: url
 url: https://github.com/lpereira/hardinfo/releases/latest
 ---
+filter:
+  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/gyunaev/kchmviewer/releases/latest
+---
 kind: url
 url: https://salsa.debian.org/manpages-de-team/manpages-de/raw/master/CHANGES.md
 ---
