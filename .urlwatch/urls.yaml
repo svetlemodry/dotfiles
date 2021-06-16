@@ -7,6 +7,9 @@ url: https://pypi.python.org/pypi/python-hglib
 kind: url
 url: https://mmonit.com/monit/dist/
 ---
+kind: url
+url: https://invisible-mirror.net/archives/diffstat/ 
+---
 filter:
   - html2text
   - grep: "Stable release"
