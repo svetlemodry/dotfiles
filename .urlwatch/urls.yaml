@@ -168,6 +168,8 @@ filter:
 kind: url
 url: http://download.osgeo.org/proj/
 ---
+filter:
+  - html2text
 kind: url
 url: http://mirror.httrack.com/historical/
 ---
