@@ -157,11 +157,11 @@ kind: url
 url: https://github.com/nzbget/nzbget/releases/latest
 ---
 filter:
-  - css: "#repo-content-pjax-container h1"
+  - css: ".Box-row:first-child h4 a"
   - html2text: re
   - strip
 kind: url
-url: https://github.com/leethomason/tinyxml2/releases/latest
+url: https://github.com/leethomason/tinyxml2/tags
 ---
 filter:
   - html2text
