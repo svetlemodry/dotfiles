@@ -23,9 +23,6 @@ filter:
 kind: url
 url: http://tellico-project.org/download
 ---
-kind: url
-url: http://geo.rkkda.com/ChangeLog
----
 filter:
   - css: "#repo-content-pjax-container h1"
   - html2text: re
