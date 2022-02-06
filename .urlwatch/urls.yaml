@@ -456,11 +456,11 @@ kind: url
 url: http://log69.com/aaphoto_en.html
 ---
 filter:
-  - css: "#repo-content-pjax-container h1"
+  - css: ".Box-row:first-child h4 a"
   - html2text: re
   - strip
 kind: url
-url: https://github.com/9wm/9wm/releases/latest
+url: https://github.com/9wm/9wm/tags
 ---
 filter:
   - css: "#repo-content-pjax-container h1"
