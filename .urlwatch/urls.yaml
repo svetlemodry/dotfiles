@@ -59,6 +59,9 @@ filter:
 kind: url
 url: https://github.com/OfflineIMAP/offlineimap/releases/latest
 ---
+filter:
+  - html2text: re
+  - strip
 kind: url
 url: http://downloads.suricata-ids.org/
 ---
