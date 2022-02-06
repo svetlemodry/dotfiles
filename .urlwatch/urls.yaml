@@ -369,11 +369,11 @@ kind: url
 url: https://github.com/martinpitt/umockdev/releases/latest
 ---
 filter:
-  - css: "#repo-content-pjax-container h1"
+  - css: ".Box-row:first-child h4 a"
   - html2text: re
   - strip
 kind: url
-url: https://github.com/PromyLOPh/pianobar/releases/latest
+url: https://github.com/PromyLOPh/pianobar/tags
 ---
 kind: url
 url: http://www.gaia-gis.it/gaia-sins/freexl-sources/
