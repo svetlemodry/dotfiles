@@ -106,6 +106,9 @@ url: https://github.com/nextcloud/server/releases/latest
 kind: url
 url: http://vifm.info/downloads.shtml
 ---
+filter:
+  - html2text
+  - grep: "release"
 kind: url
 url: http://www.ginac.de/News.html
 ---
