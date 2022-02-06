@@ -235,6 +235,8 @@ url: https://github.com/RedHatBrand/Overpass/releases/latest
 kind: url
 url: http://download.kde.org/stable/kdesvn/
 ---
+filter:
+  - grep: "release"
 kind: url
 url: http://homebank.free.fr/ChangeLog
 ---
