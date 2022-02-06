@@ -509,11 +509,11 @@ kind: url
 url: https://github.com/uperf/uperf/releases/latest
 ---
 filter:
-  - css: "#repo-content-pjax-container h1"
+  - css: ".Box-row:first-child h4 a"
   - html2text: re
   - strip
 kind: url
-url: https://github.com/KDE/kuickshow/releases/latest
+url: https://github.com/KDE/kuickshow/tags
 ---
 filter:
   - css: "#repo-content-pjax-container h1"
