@@ -617,7 +617,7 @@ url: https://github.com/jim-easterbrook/python-gphoto2/releases/latest
 ---
 filter:
   - html2text
-  - strip
+  - grep: "tellico-"
 kind: url
 url: https://tellico-project.org/archive/
 ---
