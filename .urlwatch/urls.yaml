@@ -661,5 +661,9 @@ filter:
 kind: url
 url: https://www.ceskatelevize.cz/porady/tema/filmy/
 ---
-url: https://github.com/zlin/wgetpaste/releases
-filter: github
+filter:
+  - css: "#repo-content-pjax-container h1"
+  - html2text: re
+  - strip
+kind: url
+url: https://github.com/zlin/wgetpaste/releases/latest
