@@ -202,13 +202,6 @@ filter:
   - html2text: re
   - strip
 kind: url
-url: https://github.com/trezor/trezord/releases/latest
----
-filter:
-  - css: "#repo-content-pjax-container h1"
-  - html2text: re
-  - strip
-kind: url
 url: https://github.com/sqlcipher/sqlcipher/releases/latest
 ---
 filter:
