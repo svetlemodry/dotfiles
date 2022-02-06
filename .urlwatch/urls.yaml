@@ -578,8 +578,9 @@ url: https://www.softcatala.org/pub/softcatala/aspell/
 ---
 filter:
   - html2text
+  - grep: "ALGLIB"
 kind: url
-url: https://www.alglib.net/arcnews.php 
+url: https://www.alglib.net/download.php 
 ---
 filter:
   - css: "#repo-content-pjax-container h1"
