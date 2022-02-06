@@ -485,12 +485,11 @@ kind: url
 url: https://www.aquamaniac.de/sites/download/packages.php?package=03&showall=1
 ---
 filter:
-  - css: "#repo-content-pjax-container h1"
+  - css: ".Box-row:first-child h4 a"
   - html2text: re
   - strip
 kind: url
-url: https://github.com/houseabsolute/Exception-Class/releases/latest
----
+url: https://github.com/houseabsolute/Exception-Class/tags
 filter:
   - css: "#repo-content-pjax-container h1"
   - html2text: re
