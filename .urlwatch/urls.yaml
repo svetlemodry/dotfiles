@@ -27,21 +27,21 @@ kind: url
 url: http://geo.rkkda.com/ChangeLog
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/syncthing/syncthing-inotify/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/syncthing/syncthing/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -53,7 +53,7 @@ kind: url
 url: https://kmymoney.org/news/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -69,7 +69,7 @@ kind: url
 url: https://manaplus.org/changelog
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -81,21 +81,21 @@ kind: url
 url: http://eaglemode.sourceforge.net/download.html
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/mps-youtube/mps-youtube/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/mlj/castget/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -114,14 +114,14 @@ kind: url
 url: https://gitlab.labs.nic.cz/datovka/datovka/raw/master/ChangeLog
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/vgough/encfs/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -134,28 +134,28 @@ kind: url
 url: http://www.routino.org/software/NEWS.txt
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/sleuthkit/sleuthkit/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/Maproom/qmapshack/releases/latest 
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/nzbget/nzbget/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -170,7 +170,7 @@ kind: url
 url: http://mirror.httrack.com/historical/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -191,38 +191,38 @@ filter:
   - html2text: re
   - strip
 kind: url
-url: https://git.osgeo.org/gitea/postgis/postgis/releases
+url: https://git.osgeo.org/gitea/postgis/postgis/tags
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/trezor/trezord/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/sqlcipher/sqlcipher/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/duncs/clusterssh/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/tools/godep/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -235,14 +235,14 @@ kind: url
 url: http://homebank.free.fr/ChangeLog
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/Leaflet/Leaflet/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -255,7 +255,7 @@ kind: url
 url: http://download.osgeo.org/shapelib/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -265,14 +265,14 @@ kind: url
 url: https://wammu.eu/news/wammu/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/moneymanagerex/moneymanagerex/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -282,35 +282,35 @@ kind: url
 url: http://xpisar.wz.cz/ctstream/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/utelle/wxsqlite3/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/viking-gps/viking/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/dharple/detox/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/ugoviti/synbak/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -322,14 +322,14 @@ kind: url
 url: http://git.epicsol.org/epic4.git/refs/tags/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/Dushistov/sdcv/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -342,35 +342,35 @@ kind: url
 url: https://git.sesse.net/?p=movit
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/ccrisan/motioneye/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/ccrisan/motioneyeos/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/translate/translate/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/martinpitt/umockdev/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -380,14 +380,14 @@ kind: url
 url: http://www.gaia-gis.it/gaia-sins/freexl-sources/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/mapnik/mapnik/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -404,49 +404,49 @@ kind: url
 url: https://kid3.sourceforge.io/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/OISF/libhtp/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/getreu/grpn/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/arno-iptables-firewall/aif/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/libofx/libofx/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/vslavik/poedit/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/Motion-Project/motion/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -456,21 +456,21 @@ kind: url
 url: http://log69.com/aaphoto_en.html
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/9wm/9wm/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/shlomif/PySolFC/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -485,14 +485,14 @@ kind: url
 url: https://www.aquamaniac.de/sites/download/packages.php?package=03&showall=1
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/houseabsolute/Exception-Class/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -504,56 +504,56 @@ kind: url
 url: https://ftp.i-scream.org/pub/i-scream/pystatgrab/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/uperf/uperf/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/KDE/kuickshow/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/colorgcc/colorgcc/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/stachenov/quazip/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/mquinson/po4a/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/vicgeralds/vitetris/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/lpereira/hardinfo/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -563,7 +563,7 @@ kind: url
 url: https://salsa.debian.org/manpages-de-team/manpages-de/raw/master/CHANGES.md
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -581,7 +581,7 @@ kind: url
 url: https://www.alglib.net/arcnews.php 
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -593,14 +593,14 @@ kind: url
 url: http://youtube-dl.org
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/ytdl-org/youtube-dl/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -613,42 +613,42 @@ kind: url
 url: https://tellico-project.org/archive/
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/varietywalls/variety/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/nelhage/reptyr/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/aristocratos/bpytop/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/polybar/polybar/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-header")]//a)[1]'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
 url: https://github.com/sethmlarson/selectors2/releases/latest
 ---
 filter:
-  - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+  - css: "#repo-content-pjax-container h1"
   - html2text: re
   - strip
 kind: url
@@ -660,3 +660,6 @@ filter:
   - strip
 kind: url
 url: https://www.ceskatelevize.cz/porady/tema/filmy/
+---
+url: https://github.com/zlin/wgetpaste/releases
+filter: github
