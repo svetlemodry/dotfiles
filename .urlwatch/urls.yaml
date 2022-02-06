@@ -451,6 +451,13 @@ filter:
 kind: url
 url: https://github.com/gicmo/bolt/releases/latest
 ---
+filter:
+  - css: ".row-main-content a"
+  - html2text: re
+  - strip
+kind: url
+url: https://gitlab.freedesktop.org/bolt/bolt/-/tags
+---
 kind: url
 url: http://log69.com/aaphoto_en.html
 ---
