@@ -488,7 +488,12 @@ url: https://gitlab.com/surfraw/Surfraw/raw/master/ChangeLog
 filter:
   - html2text
 kind: url
-url: https://www.aquamaniac.de/sites/download/packages.php?package=03&showall=1
+url: https://www.aquamaniac.de/rdm/projects/gwenhywfar/files
+---
+filter:
+  - html2text
+kind: url
+url: https://www.aquamaniac.de/rdm/projects/aqbanking/files
 ---
 filter:
   - css: ".Box-row:first-child h4 a"
