@@ -487,11 +487,13 @@ url: https://gitlab.com/surfraw/Surfraw/raw/master/ChangeLog
 ---
 filter:
   - html2text
+  - grep: "gwenhywfar"
 kind: url
 url: https://www.aquamaniac.de/rdm/projects/gwenhywfar/files
 ---
 filter:
   - html2text
+  - grep: "aqbanking"
 kind: url
 url: https://www.aquamaniac.de/rdm/projects/aqbanking/files
 ---
