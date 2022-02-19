@@ -680,4 +680,9 @@ filter:
   - strip
 kind: url
 url: https://github.com/zlin/wgetpaste/releases/latest
+---
+filter:
+  - html2text
+kind: url
+url: https://download.gnome.org/sources/gtranslator/
 
