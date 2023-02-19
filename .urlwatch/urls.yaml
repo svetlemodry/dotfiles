@@ -57,11 +57,6 @@ kind: url
 url: https://github.com/OfflineIMAP/offlineimap/releases/latest
 ---
 filter:
-  - html2text: re
-kind: url
-url: http://downloads.suricata-ids.org/
----
-filter:
   - html2text
   - grep: "New release"
 kind: url
