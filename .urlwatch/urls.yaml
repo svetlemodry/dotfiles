@@ -685,3 +685,9 @@ filter:
   - html2text
 kind: url
 url: https://git.minetest.land/MineClone2/MineClone2/tags
+---
+filter:
+  - html2text
+kind: url
+url: https://codeberg.org/Wuzzy/Repixture/tags
+
