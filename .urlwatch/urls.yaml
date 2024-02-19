@@ -678,4 +678,13 @@ filter:
   - html2text
 kind: url
 url: https://codeberg.org/Wuzzy/Repixture/tags
-
+---
+filter:
+  - html2text
+kind: url
+url: https://www.darc.de/der-club/distrikte/c/ortsverbaende/01/ausbildung/
+---
+filter:
+  - html2text
+kind: url
+url: https://www.ov-c01.de/lizenz.html
