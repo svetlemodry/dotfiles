@@ -600,13 +600,6 @@ filter:
   - html2text: re
   - strip
 kind: url
-url: https://github.com/ytdl-org/youtube-dl/releases/latest
----
-filter:
-  - css: "#repo-content-pjax-container h1"
-  - html2text: re
-  - strip
-kind: url
 url: https://github.com/jim-easterbrook/python-gphoto2/releases/latest
 ---
 filter:
